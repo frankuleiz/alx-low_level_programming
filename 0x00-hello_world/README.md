@@ -4,3 +4,4 @@ generates the assembly code
 Compiles and creates an executable file
 c program that prints followed by a new line
 A program that prints using the printf
+Prints the size of various types
