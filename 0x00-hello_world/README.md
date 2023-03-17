@@ -7,3 +7,4 @@ generates the assembly code
  create mode 100644 0x00-hello_world/main.s
 Compiles and creates an executable file
 Compiles a c file to an executable
+c program that prints followed by anew line
