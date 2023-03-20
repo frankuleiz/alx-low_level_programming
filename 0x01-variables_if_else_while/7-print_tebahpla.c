@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
+/**
  *main - Entry point
- *Description:Prints lowercase in reverse
+ *Description: 'Prints lowercase in reverse'
  *Return: Always 0
  */
 int main(void)
