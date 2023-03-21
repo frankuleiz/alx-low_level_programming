@@ -11,7 +11,6 @@ int main(void)
 
 	for (a = 0; a < 10; a++)
 	{
-		putchar(a);
 		for (b = 1; b < 10; b++)
 		{
 			if (a < b && a != b)
