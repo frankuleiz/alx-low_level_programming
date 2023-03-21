@@ -7,3 +7,4 @@ Prints all single digits of base 10
 Prints single digits with no variable type of char
 Prints lowecase alphabet in reverse
 prints all the numbers of base 16 in lowercase
+prins all possible combinations of single digits
