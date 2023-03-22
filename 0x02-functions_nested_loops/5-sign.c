@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-  * print_sign: Entry point
-  * @n: Parameter to be executed
+  * print_sign - Entry point to print a sign of a number
+  * @n:Parameter to be executed
   * Return: 1 0 or -1
   */
 
