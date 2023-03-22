@@ -20,7 +20,7 @@ int print_last_digit(int a)
 	else
 	{
 		_putchar(-b + 48);
-		return (b + 48);
+		return (-b);
 	}
 }
 
