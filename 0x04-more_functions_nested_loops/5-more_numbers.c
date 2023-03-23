@@ -1,7 +1,7 @@
 #include "main.h"
 /**
   * more_numbers - Entry point
-  *
+  * @: integer
   * Return: void
   */
 void more_numbers(void)
