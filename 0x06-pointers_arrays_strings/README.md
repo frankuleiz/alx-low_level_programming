@@ -6,3 +6,4 @@
 4. A function that reverses the content of an array
 5. A function that changes all from lowercase letters to uppercase of a string
 6. A function that capitalizes all words of a string
+7. A function that encodes a string to 1337
