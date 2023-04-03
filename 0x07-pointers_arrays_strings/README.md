@@ -3,3 +3,4 @@
 0. A function that fills memory with a constant byte
 1. A function that copies memory area
 2. A fuction that locates a character in a string
+4. A function that searches a string for any of a set of bytes
