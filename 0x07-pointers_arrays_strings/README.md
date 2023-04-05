@@ -5,3 +5,4 @@
 2. A fuction that locates a character in a string
 4. A function that searches a string for any of a set of bytes
 5. A function that locates a substring
+7. A function that prints the sum of the two diagonals of a square matrix of integers
