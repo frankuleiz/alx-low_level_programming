@@ -1,14 +1,16 @@
 #include "main.h"
 /**
   * _puts_recursion - prints a string
-  * @s: character input
+  * @s: string
   * Return: Always 0
   */
 void _puts_recursion(char *s)
 {
-	int i;
-
-	for (i = 0; s[i] != '\0'; i++)
-		_putchar(s[i]);
-	_putchar('\n');
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
+	else
+		_putchar('\n');
 }
