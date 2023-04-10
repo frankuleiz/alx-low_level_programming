@@ -9,3 +9,8 @@
 3.A program that prints all arguments it receives.
 -All arguments should be printed, including the first one
 -Only print one argument per line, ending with a new line
+
+4.A program that multiplies two numbers.
+-program that multiplies two numbers.
+-You can assume that the two numbers and result of the multiplication can be stored in an integer
+-If the program does not receive two arguments, your program should print Error, followed by a new line, and return 1
