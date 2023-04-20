@@ -2,7 +2,7 @@
 /**
   * print_numbers - prints numbers
   * @separator: string of numbers
-  * @m: unsigned int
+  * @n: unsigned int
   * Return: void
   */
 
@@ -23,7 +23,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		printf("%s", separator);
 	}
 	putchar('\n');
-
 	va_end(ap);
 	}
 }
