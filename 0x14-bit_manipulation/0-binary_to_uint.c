@@ -3,7 +3,7 @@
 /**
   * binary_to_uint - converts a binary number to an unsigned int
   * @b: pointer to as string
-  * Return: 0or res
+  * Return: 0 or res
   */
 
 unsigned int binary_to_uint(const char *b)
@@ -18,7 +18,7 @@ unsigned int binary_to_uint(const char *b)
 
 	for (i = 0; b[i] != '\0'; i++)
 	{
-		if (b[i] == '\0')
+		if (b[i] == '0')
 		{
 		res = res << 1;
 		}
