@@ -4,7 +4,7 @@
  * flip_bits - returns the number of bits needed to traverse
  * @n: first integer
  * @m: second integer
- * Return: bits needed 
+ * Return: bits needed
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
