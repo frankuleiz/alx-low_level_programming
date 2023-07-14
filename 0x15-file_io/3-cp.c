@@ -7,7 +7,7 @@
  * Return: Always 0 on success
  */
 
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int src, dest, r, x, y;
 	char buf[SIZ];
