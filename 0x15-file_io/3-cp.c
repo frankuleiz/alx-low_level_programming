@@ -10,7 +10,7 @@
 int main(argc, char *argv[])
 {
 	int src, dest, r, x, y;
-	char *buf[SIZ];
+	char buf[SIZ];
 
 	if (argc != 3)
 	{
