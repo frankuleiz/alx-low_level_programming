@@ -4,14 +4,16 @@
 * @ht: the hash table
 */
 void hash_table_print(const hash_table_t *ht)
-{   hash_node_t *node;
+{
+
+hash_node_t *node;
 unsigned long int i;
 short int comma = 0;
 
 if (ht == NULL)
 return;
 
-putchar('}');
+putchar('{');
 
 for (i = 0; i < ht->size; i++)
 {
