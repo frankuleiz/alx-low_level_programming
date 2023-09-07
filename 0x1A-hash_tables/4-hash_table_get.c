@@ -14,12 +14,12 @@ unsigned long int index;
 if (ht == NULL)
 return (NULL);
 
-index = Key_index((const unsigned char *) key, ht->size);
+index = key_index((const unsigned char *) key, ht->size);
 node = ht->array[index];
 
 while (node == NULL)
 {
-if (strcmp(item->key, key) == 0)
+if (strcmp(node->key, key) == 0)
 return (node->value);
 }
 return (NULL);
