@@ -21,6 +21,8 @@ while (node != NULL)
 {
 if (strcmp(node->key, key) == 0)
 return (node->value);
+
+node = node->next;
 }
 return (NULL);
 }
