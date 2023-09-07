@@ -13,7 +13,7 @@ hash_node_t *node;
 hash_node_t *new_node;
 unsigned long int index;
 
-if (ht == NULL || *key == '\n' || *value == NULL)
+if (ht == NULL || *key == '\n' || *value == '\n')
 return (0);
 
 index = key_index((const unsigned char *)key, ht->size);
@@ -56,7 +56,7 @@ return (1);
 
 hash_node_t *create_new_node (const char *key, const char *value)
 {
-hash_node_t *new node;
+hash_node_t *new_node;
 new_node = malloc(sizeof(hash_node_t));
 
 if (new_node == NULL)
