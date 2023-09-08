@@ -33,7 +33,7 @@ while (current != NULL)
 {
 next = current->next;
 free(current->key);
-free(next->value);
+free(current->value);
 free(current);
 current = next;
 
