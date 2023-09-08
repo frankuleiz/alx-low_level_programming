@@ -17,6 +17,7 @@ free_hash_list(node);
 }
 free(ht->array);
 free(ht);
+}
 /**
 * free_hash_list - A function that frees a hash_node_list
 * @head: a pointer to the head linked list
@@ -36,6 +37,5 @@ free(next->value);
 free(current);
 current = next;
 
-}
 }
 }
