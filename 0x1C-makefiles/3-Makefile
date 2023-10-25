@@ -9,7 +9,7 @@ all: $(OBJ)
 
 .PHONY : clean
 clean :
-		$(RM) $(OBJ) $(NAME)
+		$(RM) *~ $(NAME)
 
 oclean :
 		$(RM) $(OBJ)
